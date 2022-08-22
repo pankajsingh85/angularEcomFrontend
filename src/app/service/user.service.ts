@@ -4,7 +4,6 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { environment } from 'src/environments/environment.prod';
 import { UserModel } from '../models/user-model.model';
-const baseUrl = 'http://localhost:5000';
 @Injectable({
   providedIn: 'root'
 })
